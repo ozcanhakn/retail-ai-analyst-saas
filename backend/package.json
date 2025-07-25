@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.1",
+    "tsx": "^4.19.4"
+  },
+  "scripts": {
+    "db:generate": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  }
+}
