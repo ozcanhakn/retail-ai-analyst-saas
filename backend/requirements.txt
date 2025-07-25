@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pandas
+openai
+python-multipart
+python-dotenv # .env dosyasını okumak için
